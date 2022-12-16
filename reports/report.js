@@ -55,97 +55,11 @@ formatter.examples({
     },
     {
       "cells": [
-        "DemoSalesManager",
-        "crmsfa"
-      ]
-    },
-    {
-      "cells": [
         "DemoCSR",
         "crmsfa"
       ]
     }
   ]
-});
-formatter.scenario({
-  "name": "TC001_Login and Logout",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@Smoke"
-    }
-  ]
-});
-formatter.step({
-  "name": "Launch Chromebrowser and load url",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "StepsDefinitions.launchChromebrowserAndLoadUrl()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "enter username as DemoSalesManager",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepsDefinitions.enterUsernameAsDemosalesmanager(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "enter password as crmsfa",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepsDefinitions.enterPasswordAsCrmsfa(String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click the login button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "StepsDefinitions.clickTheLoginButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "its navigated Homepage",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "StepsDefinitions.itsNavigatedHomepage()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "click the logout button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepsDefinitions.clickTheLogoutButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "close browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "StepsDefinitions.closeBrowser()"
-});
-formatter.result({
-  "status": "passed"
 });
 formatter.scenario({
   "name": "TC001_Login and Logout",
@@ -242,7 +156,7 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "name": "enter username as demosalesmanager",
+  "name": "enter username as DemoCSR",
   "keyword": "And "
 });
 formatter.step({
@@ -357,7 +271,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "enter username as demosalesmanager",
+  "name": "enter username as DemoCSR",
   "keyword": "And "
 });
 formatter.match({
@@ -527,7 +441,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "enter username as demosalesmanager",
+  "name": "enter username as DemoCSR",
   "keyword": "And "
 });
 formatter.match({
@@ -697,7 +611,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "enter username as demosalesmanager",
+  "name": "enter username as DemoCSR",
   "keyword": "And "
 });
 formatter.match({

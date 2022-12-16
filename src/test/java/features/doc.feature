@@ -13,8 +13,10 @@ And close browser
 
 Examples:
 		|username|password|
-		|DemoSalesManager|crmsfa|
 		|DemoCSR|crmsfa|
+		
+		
+		
 		
 @WIP
 Scenario: TC002_Login and Logout for failure
@@ -32,7 +34,7 @@ And close browser
 Scenario Outline: TC003_CreateLead
 
 Given Launch Chromebrowser and load url
-And enter username as demosalesmanager
+And enter username as DemoCSR
 And enter password as crmsfa
 When click the login button
 And click CRMSFA
